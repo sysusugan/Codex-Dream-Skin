@@ -19,43 +19,34 @@
 一张图，一种心情。下面都是可落地的主题示意效果：
 
 <p align="center">
-  <img src="docs/images/gallery/skin-01.jpg" alt="People AI 红白主题" width="900"><br>
-  <sub>People AI · 红白科幻</sub>
+  <img src="docs/images/gallery/skin-01.jpg" alt="红白科幻主题" width="900"><br>
+  <sub>红白科幻</sub>
 </p>
 
 <p align="center">
-  <img src="docs/images/gallery/skin-02.jpg" alt="Jackson Yee 主题" width="900"><br>
-  <sub>Jackson Yee · 清透定制</sub>
+  <img src="docs/images/gallery/skin-02.jpg" alt="清透定制主题" width="900"><br>
+  <sub>清透定制</sub>
 </p>
 
 <p align="center">
-  <img src="docs/images/gallery/skin-03.jpg" alt="ENFP 主题" width="900"><br>
-  <sub>ENFP · 灵感小宇宙</sub>
+  <img src="docs/images/gallery/skin-03.jpg" alt="灵感主题" width="900"><br>
+  <sub>灵感小宇宙</sub>
 </p>
 
 <p align="center">
-  <img src="docs/images/gallery/skin-04.jpg" alt="Dilraba 主题" width="900"><br>
-  <sub>Dilraba · 紫夜限定</sub>
+  <img src="docs/images/gallery/skin-04.jpg" alt="紫夜主题" width="900"><br>
+  <sub>紫夜限定</sub>
 </p>
 
 <p align="center">
-  <img src="docs/images/gallery/skin-05.jpg" alt="Miku 主题" width="900"><br>
-  <sub>Miku · 初音未来</sub>
+  <img src="docs/images/gallery/skin-05.jpg" alt="初音主题" width="900"><br>
+  <sub>初音未来</sub>
 </p>
 
 <p align="center">
-  <img src="docs/images/gallery/skin-07.jpg" alt="KUN 主题" width="900"><br>
-  <sub>KUN · 舞台黑金</sub>
+  <img src="docs/images/gallery/skin-07.jpg" alt="舞台黑金主题" width="900"><br>
+  <sub>舞台黑金</sub>
 </p>
-
-<p align="center">
-  <img src="docs/images/gallery/skin-08.jpg" alt="Jackson Yee 主题 2" width="900"><br>
-  <sub>Jackson Yee · 限定版</sub>
-</p>
-
-| ENFP 细节 | 热巴细节 |
-|:---:|:---:|
-| <img src="docs/images/gallery/skin-06.jpg" alt="ENFP detail" width="420"> | <img src="docs/images/gallery/skin-04.jpg" alt="Dilraba detail" width="420"> |
 
 ## 它能做什么
 
