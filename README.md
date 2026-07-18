@@ -17,6 +17,41 @@
   非 OpenAI 官方产品。不修改 <code>.app</code> / <code>app.asar</code> / WindowsApps。
 </p>
 
+## 最新主题
+
+### INTJ · 策略建筑师
+
+参考 `skin-05` 的动漫人物、纸张拼贴和右侧构图，重新设计为更克制的 INTJ
+策略工作台：石墨、午夜蓝与钴蓝构成建筑草图般的秩序感，左侧保留低信息安全区，
+可直接承载 Codex 原生内容。
+
+<p align="center">
+  <img src="macos/presets/preset-intj-strategist/background.jpg" alt="INTJ 策略建筑师主题纯背景" width="900"><br>
+  <sub>2560 × 1440 纯背景 · 无 UI、无文字 · macOS 可直接切换</sub>
+</p>
+
+macOS 安装后可从「🎨 Skin → 已保存的主题」选择，也可以运行：
+
+```bash
+~/.codex/codex-dream-skin-studio/scripts/switch-theme-macos.sh \
+  --id preset-intj-strategist
+```
+
+### 有菜
+
+参考 `skin-01` 的粉色玫瑰与人物方向，重新生成无 UI、无文字的连续纯背景；
+柔和粉白留白承载 Codex 原生内容，人物与花卉主视觉集中在右侧。
+
+<p align="center">
+  <img src="macos/presets/preset-youcai/background.jpg" alt="有菜主题纯背景" width="900"><br>
+  <sub>2560 × 1440 纯背景 · 无 UI、无文字 · macOS 可直接切换</sub>
+</p>
+
+```bash
+~/.codex/codex-dream-skin-studio/scripts/switch-theme-macos.sh \
+  --id preset-youcai
+```
+
 ## 赞助商
 
 <p align="center">
