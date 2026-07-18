@@ -11,3 +11,11 @@
 ## User themes
 
 Images chosen through Customize belong to the user (or their licensors).
+
+## 有菜 preset
+
+- File: `presets/preset-youcai/background.jpg`
+- Created: 2026-07-18 via Codex built-in imagegen
+- Reference: `docs/images/gallery/skin-01.jpg`, used for the visible adult subject, palette, and composition
+- Purpose: bundled macOS preset with a UI-free `2560 × 1440` background
+- Rights: generated at the maintainer's direction; confirm likeness and asset rights before public redistribution

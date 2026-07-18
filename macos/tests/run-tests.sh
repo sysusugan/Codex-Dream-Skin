@@ -195,10 +195,13 @@ fi
   [ -f "$themes/preset-gothic-void-crusade/background.jpg" ] || exit 1
   [ -f "$themes/preset-arina-hashimoto/theme.json" ] || exit 1
   [ -f "$themes/preset-arina-hashimoto/background.jpg" ] || exit 1
+  [ -f "$themes/preset-youcai/theme.json" ] || exit 1
+  [ -f "$themes/preset-youcai/background.jpg" ] || exit 1
   [ -f "$themes/custom-keepme/theme.json" ] || exit 1
   for id in $retired; do [ ! -e "$themes/$id" ] || exit 1; done
   seeded="$(/usr/bin/find "$themes" -maxdepth 1 -type d -name "preset-*" | /usr/bin/wc -l | /usr/bin/tr -d " ")"
-  [ "$seeded" -eq 2 ] || exit 1
+  expected="$(/usr/bin/find "$1/presets" -maxdepth 1 -type d -name "preset-*" | /usr/bin/wc -l | /usr/bin/tr -d " ")"
+  [ "$seeded" -eq "$expected" ] || exit 1
 ' _ "$ROOT"
 
 # Theme switches stage files and publish theme.json last, preserving a complete

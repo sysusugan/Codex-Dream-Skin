@@ -74,12 +74,18 @@ CDP is powerful and unauthenticated on loopback. Prefer Restore when you are don
 
 ## Bundled presets
 
-A fresh install seeds two tested presets into your theme library:
-**Gothic Void Crusade** and **桥本有菜 / Arina Hashimoto**. Gothic Void Crusade
+A fresh install seeds three tested presets into your theme library:
+**Gothic Void Crusade**, **桥本有菜 / Arina Hashimoto**, and **有菜**. Gothic Void Crusade
 is the default when no active theme exists. Switch to Arina Hashimoto with:
 
 ```bash
 ~/.codex/codex-dream-skin-studio/scripts/switch-theme-macos.sh --id preset-arina-hashimoto
+```
+
+Switch to 有菜 with:
+
+```bash
+~/.codex/codex-dream-skin-studio/scripts/switch-theme-macos.sh --id preset-youcai
 ```
 
 The user-provided source PNG is `1672 × 941`. Its pack contains a standardized

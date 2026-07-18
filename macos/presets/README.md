@@ -6,14 +6,18 @@
 
 ## 内置实测预设
 
-当前内置 `preset-gothic-void-crusade/`（Gothic Void Crusade）与
-`preset-arina-hashimoto/`（桥本有菜 / Arina Hashimoto）两套实机验证主题。
-前者是社区作者提供的原创哥特科幻背景；后者使用一张
-`2560 × 1440`（16:9）纯背景：左侧低信息留白承载 Codex 原生标题，人物和花卉主视觉集中在右侧。浅色与暗色截图均来自真实 Codex 注入，不是 AI 绘制的整窗 UI。
+当前内置 `preset-gothic-void-crusade/`（Gothic Void Crusade）、
+`preset-arina-hashimoto/`（桥本有菜 / Arina Hashimoto）和
+`preset-youcai/`（有菜）三套主题。
+第一套是社区作者提供的原创哥特科幻背景；后两套使用
+`2560 × 1440`（16:9）纯背景：左侧低信息留白承载 Codex 原生标题，人物和花卉主视觉集中在右侧。桥本有菜的浅色与暗色截图均来自真实 Codex 注入，不是 AI 绘制的整窗 UI。
+
+`preset-youcai` 参考 `docs/images/gallery/skin-01.jpg` 的人物与粉色玫瑰方向，使用 Codex 内置 imagegen 重新生成无 UI、无文字的连续纯背景；主题载荷、预设播种测试和 macOS 实时注入验证均已通过。
 
 来源尺寸必须如实区分：归档的用户源图（不随 preset 播种）是 `1672 × 941` PNG；preset 内的 `background.jpg` 保持其近 16:9 构图，标准化导出为 `2560 × 1440` JPEG，并不代表补回或新增了源图细节。派生文件使用 `sips -z 1440 2560 -s format jpeg -s formatOptions 90` 生成。
 
 - 可导入/可播种的主题素材只有 [`background.jpg`](./preset-arina-hashimoto/background.jpg) 与 [`theme.json`](./preset-arina-hashimoto/theme.json)。
+- 有菜主题包对应 [`background.jpg`](./preset-youcai/background.jpg) 与 [`theme.json`](./preset-youcai/theme.json)。
 - 用户提供的 byte-identical 源 PNG 单独归档在 [`docs/images/presets/arina-hashimoto-source.png`](../../docs/images/presets/arina-hashimoto-source.png)，不放进 preset pack，因此不会被安装脚本播种为多余文件。
 - 当前浅色、暗色实测文档截图均为 `2308 × 1572` Retina JPEG（CSS viewport `1154 × 786`），来自同一真实 Codex 首页；为保护未发送草稿，截图时仅用临时本地样式隐藏输入文字并收起编辑区，没有修改草稿内容或伪造皮肤效果。它们包含真实侧栏、项目工具栏和输入框，**只作预览，绝不能当背景导入**。
 - 背景是用户提供的 AI 生成示例，不代表 OpenAI/Codex 官方视觉或背书；公开分发前仍需确认人物、模型输出与素材使用权。
