@@ -19,3 +19,12 @@ Images chosen through Customize belong to the user (or their licensors).
 - Reference: `docs/images/gallery/skin-01.jpg`, used for the visible adult subject, palette, and composition
 - Purpose: bundled macOS preset with a UI-free `2560 × 1440` background
 - Rights: generated at the maintainer's direction; confirm likeness and asset rights before public redistribution
+
+## INTJ strategist preset
+
+- File: `presets/preset-intj-strategist/background.jpg`
+- SHA-256: `9437361cddd88f25569fcdd033f6b0962e2fc63acb3dcd7f66152ae24d265b5f`
+- Created: 2026-07-18 with Codex built-in image generation
+- Subject: original fictional adult; no identity reference
+- Purpose: bundled INTJ strategy-notebook theme with a left-side content safe area
+- Rights: generated for this project theme pack

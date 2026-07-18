@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "preset-intj-strategist",
+  "name": "INTJ · 策略建筑师",
+  "brandSubtitle": "CODEX DREAM SKIN",
+  "tagline": "先看清系统，再把复杂变成秩序。",
+  "projectPrefix": "选择项目 · ",
+  "projectLabel": "◉  选择项目",
+  "statusText": "STRATEGY MODE ONLINE",
+  "quote": "TURN COMPLEXITY INTO STRUCTURE",
+  "image": "background.jpg",
+  "appearance": "auto",
+  "art": {
+    "focusX": 0.76,
+    "focusY": 0.46,
+    "safeArea": "left",
+    "taskMode": "ambient"
+  }
+}

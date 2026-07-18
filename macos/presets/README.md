@@ -14,6 +14,10 @@
 
 `preset-youcai` 参考 `docs/images/gallery/skin-01.jpg` 的人物与粉色玫瑰方向，使用 Codex 内置 imagegen 重新生成无 UI、无文字的连续纯背景；主题载荷、预设播种测试和 macOS 实时注入验证均已通过。
 
+另含 `preset-intj-strategist/`（INTJ · 策略建筑师）设计预设：原创虚构成年人物、
+石墨与钴蓝的策略手账构图，左侧保留原生内容安全区。背景为项目内生成的纯壁纸，
+不含界面或可读文字；尚未归入上面的实机截图验证清单。
+
 来源尺寸必须如实区分：归档的用户源图（不随 preset 播种）是 `1672 × 941` PNG；preset 内的 `background.jpg` 保持其近 16:9 构图，标准化导出为 `2560 × 1440` JPEG，并不代表补回或新增了源图细节。派生文件使用 `sips -z 1440 2560 -s format jpeg -s formatOptions 90` 生成。
 
 - 可导入/可播种的主题素材只有 [`background.jpg`](./preset-arina-hashimoto/background.jpg) 与 [`theme.json`](./preset-arina-hashimoto/theme.json)。
@@ -28,6 +32,9 @@
 ```bash
 ~/.codex/codex-dream-skin-studio/scripts/switch-theme-macos.sh \
   --id preset-arina-hashimoto
+
+~/.codex/codex-dream-skin-studio/scripts/switch-theme-macos.sh \
+  --id preset-intj-strategist
 ```
 
 ## 一套预设的结构
